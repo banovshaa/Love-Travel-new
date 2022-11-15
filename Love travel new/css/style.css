@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.buy{
+    width:65px ;
+    position: fixed;
+    bottom: 25px;
+    right:25px;
+    z-index: 9;
+}
+.b-num{
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #545454;
+    color: white;
+    padding: 10px 0 0;
+    font-size: 25px;
+}
+.buy-now{
+    width: 50px;
+    font-size: 8px;
+    padding: 3px 5px;
+    background-color: #f76570;
+    color: white;
+    position: absolute;
+    top: -5px;
+}
+.b-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #545454;
+    position: absolute;
+    left: -15px;
+    bottom: 0px;
+}
+.b-icon img{
+    width: 100%;
+    padding: 10px;
+}
+header{
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0,0,0,0.12);
+}
+.header-all{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 28px 65px 34px;
+}
+.logo{
+    width: 160px;
+}
+.logo img{
+    width: 100%;
+}
+.icon{
+    width: 25px;
+}
+.icon img{
+    width: 100%;
+}
+nav{
+    width: 75%;
+}
+nav a{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-right: 1.75rem ;
+    letter-spacing: 2px;
+}
+nav .nav-book{
+    background-color: #ba71da;
+    padding: 10px 15px;
+    margin-left: 1.5rem;
+    border-radius: 30px;
+}
+.search-all{
+    padding: 17rem 0 18rem;
+    background-image: url("http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-2.jpg");
+    background-position: center;
+    background-size:138% ;;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.12);
+    z-index: 1;
+}
+.search-all h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.search-all h2 span{
+    position: relative;
+    z-index: -1;
+}
+.search-all h2 span::after{
+    content: "";
+    position: absolute;
+    z-index: -2;
+    left: 0;
+    bottom: 12px;
+    height:5px;
+    width: 100%;
+    background-color: #ba71da;
+}
+.search-all h3{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 1.1rem 0 3.5rem;
+    letter-spacing: 4px;
+}
+
+.search-all .s-input{
+   width: 25%;
+   margin: 0 auto 3.5rem;
+   position: relative;
+}
+.search-all .input-image{
+    position: absolute;
+    width: 16px;
+    right: 25px;
+    top: 5px;
+}
+#Search .input-image img{
+    width: 100%;
+    vertical-align: bottom;
+}
+#Search input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a3a3a3;
+    border-radius: 30px;
+}
+.search-all input::placeholder{
+    color: #a3a3a3;
+    font-size: 15px;
+    padding: 10px 25px;
+}
+.s-icons{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.s-i-box{
+    width: 110px;
+    height: 100px;
+    background: rgba(0,0,0,0.21);
+    position: relative;
+}
+.s-i-box .s-i-b-img{
+    width: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.s-i-box .s-i-b-img img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.s-icons .s-i-box p{
+    width: 100%;
+    font-size: 11px;
+    position: absolute;
+    bottom: 10%;
+}
+.destinations-all{
+    text-align: center;
+    padding-bottom:2.5rem ;
+}
+.destinations-all h3{
+    color: #9a9a9a;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: normal;    
+    margin-top: 3.5rem;
+}
+.destinations-all h2{
+    color: #555555;
+    font-size: 36px;
+    font-weight: bold;
+    margin: .4rem 0 2.5rem;
+}
+.destinations-all h2 span{
+    position: relative;
+    z-index: 1;
+}
+.destinations-all h2 span::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 12px;
+    height:5px;
+    width: 100%;
+    background-color: #1BBC9B; 
+}
+.d-box{
+    width: 31%;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.d-box::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.12);
+}
+.d-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #14b9d5;
+    z-index: 2;
+    opacity: 0;
+    transition: 1s;
+}
+.d-box:hover .d-overlay{
+    opacity: 1;
+}
+.d-overlay a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    color: #14b9d5;
+    border-radius: 30px;
+    background-color: white;
+    padding: 5px 20px;
+}
+.overlay-all{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.o-text h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1rem;
+}
+.o-text p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: .5rem;
+}
+.o-text p:last-child{
+    margin-bottom: 1.5rem;
+}
+.d-box img{
+    z-index: -1;
+    width: 100%;
+    vertical-align: bottom;
+}
+.d-text{
+    position: absolute;
+    left: 30px;
+    bottom:30px;  
+    text-align: left;  
+}
+.d-text h3{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.d-text h6{
+    color: white;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+.d-icon{
+    z-index: 1;
+    width: 40px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.d-icon img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.d-boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+.holiday-all{
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538);
+    background-position: center;
+    background-size: cover;
+    padding: 50px 23.5rem;
+    position: relative;
+
+}
+.holiday-all h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.holiday-all h2 span{
+    position: relative;
+    z-index: 1;  
+}
+.holiday-all span::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 12px;
+    height:5px;
+    width: 100%;
+    background-color: #F76570;
+}
+.holiday-all a{
+    border-radius: 38px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    background-color: white;
+    padding: 15px 35px;
+    color: #f76570;
+    position: absolute;
+    bottom: 30%;
+    right: 29%;
+}
